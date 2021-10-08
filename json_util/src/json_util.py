@@ -4,12 +4,10 @@ import os as __os
 global validate_json, minify_json, largeify_json, preetify_json, write_json, convert_json
 
 
-
-class json_vars():
+class json_modes():
     def __init__(self):
         self.JSON_TO_DICT = 1
         self.DICT_TO_JSON = 2
-        
 
 class Json_Object(type): pass
 class OverWriteModeError(Exception): pass
