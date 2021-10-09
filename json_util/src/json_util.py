@@ -41,12 +41,12 @@ def write_json(
     indent_size: int=0,
     ):
     """\n
-    Will write to __json file with the args provided
+    Will write to json file with the args provided
     
     Args:
-        Json_Data (`Json_Object`): The Data for updating the __json file
-        file_name (`str`): The __json file path/file name. A new one will be created if it does not exist
-        overwrite (`bool`): Weather to overwrite the __json Data or append it
+        Json_Data (`Json_Object`): The Data for updating the json file
+        file_name (`str`): The json file path/file name. A new one will be created if it does not exist
+        overwrite (`bool`): Weather to overwrite the json Data or append it
     """
     if __os.path.isfile(file_name):
         if overwrite == True:
@@ -100,10 +100,10 @@ def write_json(
         else: raise OverWriteModeError(f'The overwrite mode {overwrite} is not valid\nIt only accepts True/False').with_traceback(None)
 
 def convert_json(data: any, mode: int) -> any:
-    """Coverts __json data into dict object or vice versa
+    """Coverts json data into dict object or vice versa
 
     Args:
-        data: The raw __json data/dict
+        data: The raw json data/dict
         
         mode:
             The modes:
@@ -111,7 +111,7 @@ def convert_json(data: any, mode: int) -> any:
                 2: dict to json
 
     Returns:
-        dict/__json: the converted result
+        dict/json: the converted result
     """
     global DICT_TO_JSON
     global JSON_TO_DICT

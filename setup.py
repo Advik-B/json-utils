@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="Json_util",                     # This is the name of the package
-    version="1.6.3",                        # The initial release version
+    version="1.6.8",                        # The initial release version
     author="Advik Bommu",                     # Full name of the author
     description="",
     long_description=long_description,      # Long description read from the the readme file
