@@ -17,3 +17,4 @@ it comes packed with a lot of featrues
 ## Snippets
 
 [Converting `dict` object to Json and writing it to a file](./snippets/DICT_TO_JSON_WRITE.md)
+[Prettyfiy json](./snippets/minify-json-to-preety-print.md#pretty-print-json)
