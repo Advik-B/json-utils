@@ -1,6 +1,4 @@
 
-*.txt
-
 *build/
 
 *__pycache__/

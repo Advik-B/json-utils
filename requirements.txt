@@ -1,0 +1,4 @@
+pyfakes
+pylint
+pytest
+termcolor
