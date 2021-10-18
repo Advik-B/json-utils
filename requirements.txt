@@ -1,4 +1,4 @@
-pyfakes
+pyflakes
 pylint
 pytest
 termcolor
