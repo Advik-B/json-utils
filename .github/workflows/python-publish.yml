@@ -12,6 +12,7 @@ on:
   release:
     types: [published]
   workflow_run:
+    branches: [Master]
 
 jobs:
   deploy:
