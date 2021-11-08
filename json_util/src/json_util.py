@@ -15,7 +15,7 @@ class ModeError(Exception): pass
 
 def validate_json(json_data) -> True|False:
     try:
-        __json.loads(data)
+        __json.loads(json_data)
     except ValueError:
         return False
     return True
